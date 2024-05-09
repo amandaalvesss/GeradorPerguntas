@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de perguntas</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <h2>Gerador de perguntas</h5>
+            <h3>Tema: Filmes</h5>
+                <div class="container_perguntas">
+                    <h3 id="pergunta">Espaço para a pergunta</h3>
+                    <form id="opcoes">
+
+                    </form>
+
+                    <p id="erro_acerto"></p>
+
+                    <button id="submeter">Enviar Resposta</button>
+                    <button id="nova_pergunta">Próxima Pergunta</button>
+                    <button id="pontuacao_total">Conferir Pontuação</button>
+
+                </div>
+                <div id="pontuacao_total_container" style="display: none;">
+                    <h3>Sua Pontuação Total:</h3>
+                    <p id="pontuacao"></p>
+                    <p id="mgs_pontuacao"></p>
+                    <button id="zerar">Jogar novamente</button>
+                </div>
+    </div>
+
+</body>
+
+<script src="js/script.js"></script>
+
+</html>
